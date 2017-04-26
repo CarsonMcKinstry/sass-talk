@@ -4,7 +4,11 @@
   "description": "Lightning talk over sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass":"node-sass main.sass main.css",
+    "build-scss":"node-sass main.scss main.css",
+    "watch-sass":"node-sass -w main.sass main.css",
+    "watch-scss":"node-sass -w main.scss main.css"
   },
   "keywords": [
     "sass",

@@ -27,9 +27,12 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-id="f5d633103749892a0ee1ee7b780e8519" data-background-color="#00092b"><div class="sl-block" data-block-type="image" data-block-id="703d668e7abe794e15c75385865bdb37" style="min-width: 30px; min-height: 30px; width: 501px; height: 376px; left: 230px; top: 70px;"><div class="sl-block-style" style="z-index: 11;"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="512" data-natural-height="384" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669067/images/3740350/logo-b6e1ef6e.svg"></div></div></div>
-<div class="sl-block" data-block-type="text" data-block-id="30afea3e359ebc8d7ebd22379f13f3af" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 181px; top: 490px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255);">
+				<section data-id="f5d633103749892a0ee1ee7b780e8519" data-background-color="#00092b"><div class="sl-block" data-block-type="image" data-block-id="703d668e7abe794e15c75385865bdb37" style="min-width: 30px; min-height: 30px; width: 501px; height: 376px; left: 230px; top: 44px;"><div class="sl-block-style" style="z-index: 11;"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="512" data-natural-height="384" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669067/images/3740350/logo-b6e1ef6e.svg"></div></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="30afea3e359ebc8d7ebd22379f13f3af" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 181px; top: 436px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255);">
 <p><span style="font-size:1.4em">"The world's most powerful CSS preprocessor"</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="3a3c6b3160f1aed3279e331d008c4bdf" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 181px; top: 611px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255);">
+<p>Presented By: Carson McKinstry</p>
 </div></div></section><section data-id="8f390899fa1a4991b69ce9d89391eac2" data-background-color="#00092b"><div class="sl-block" data-block-type="text" data-block-id="cd3dee3328444fb351f7ebd89e5a306b" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 15px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 255);">
 <p><span style="font-size:2.0em">Two Syntaxes</span></p>
 
@@ -41,7 +44,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 362px; left: 519px; top: 191px;" data-block-id="72e2a5d6a0480c3fc93e9433270f28fd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
 <p>Sass Syntax</p>
 </div></div>
-<div class="sl-block" data-block-type="code" data-block-id="47d95e0e20ac34f5737c654553e33153" style="min-width: 30px; min-height: 30px; width: 362px; height: 184px; left: 80px; top: 258px;"><div class="sl-block-content" style="z-index: 14;"><pre class="scss"><code>.btn {
+<div class="sl-block" data-block-type="code" data-block-id="47d95e0e20ac34f5737c654553e33153" style="min-width: 30px; min-height: 30px; width: 442px; height: 280px; left: 0px; top: 280px;"><div class="sl-block-content" style="z-index: 14; font-size: 164%;"><pre class="scss"><code>.btn {
   border: 1px solid #ddd;
   border-radius: 12px;
   font-size: 20px;
@@ -50,14 +53,14 @@
   padding: 12px 32px;
 }
 </code></pre></div></div>
-<div class="sl-block" data-block-type="code" data-block-id="9110281fcf634d6cdf234ad3ebb3f3b6" style="min-width: 30px; min-height: 30px; width: 362px; height: 185px; left: 518px; top: 258px;"><div class="sl-block-content" style="z-index: 15;"><pre class="scss"><code>.btn
+<div class="sl-block" data-block-type="code" data-block-id="9110281fcf634d6cdf234ad3ebb3f3b6" style="min-width: 30px; min-height: 30px; width: 441px; height: 280px; left: 519px; top: 281px;"><div class="sl-block-content" style="z-index: 15; font-size: 171%;"><pre class="scss"><code>.btn
   border: 1px solid #ddd
   border-radius: 12px
   font-size: 20px
   color: #222
   background-color: #fff
   padding: 12px 32px
-</code></pre></div></div></section><section data-background-color="#00092b" data-id="ff1b7dcac7a58b0f3cb6953204bef1e7"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 36px;" data-block-id="98ad90f7a329f2a3b80f6a0730f94348"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
+</code></pre></div></div></section><section data-background-color="#00092b" data-id="ff1b7dcac7a58b0f3cb6953204bef1e7"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 181px; top: 36px;" data-block-id="98ad90f7a329f2a3b80f6a0730f94348"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
 <p><span style="font-size:60px">Nesting</span></p>
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 80px; top: 153px;" data-block-id="f810aaf4a134f0a9a04cef6ab44e48fd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
@@ -66,7 +69,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 519px; top: 153px;" data-block-id="dae23ad94f6a5e8eaf1a9cb5195e97fe"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
 <p>Sass Syntax</p>
 </div></div>
-<div class="sl-block" data-block-type="code" style="width: 368px; height: 407px; left: 81px; top: 223px;" data-block-id="3b7d2504e6251fac8441b7694a7f224f"><div class="sl-block-content" style="z-index: 13; font-size: 65%;"><pre class="scss"><code>.btn {
+<div class="sl-block" data-block-type="code" style="width: 582px; height: 477px; left: -133px; top: 223px;" data-block-id="3b7d2504e6251fac8441b7694a7f224f"><div class="sl-block-content" style="z-index: 13; font-size: 105%;"><pre class="scss"><code>.btn {
   border: none;
   border-radius: 12px;
   font-size: 20px;
@@ -82,14 +85,14 @@
       -webkit-transform: translate(-50%, -55%);
       -moz-transform: translate(-50%, -55%);
       transform: translate(-50%, -55%);
-      -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.25);
-      -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.25);
-      -ms-box-shadow: 1px 2px 5px rgba(0,0,0,0.25);
-      box-shadow: 1px 2px 5px rgba(0,0,0,0.25);
+      -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+      -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+      -ms-box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+      box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
     }
   }
 }</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 362px; height: 407px; left: 518px; top: 223px;" data-block-id="c3f507d874b281ed58b9b42ee0e4c873"><div class="sl-block-content" style="z-index: 14; font-size: 65%;"><pre class="scss"><code>.btn
+<div class="sl-block" data-block-type="code" style="width: 581px; height: 477px; left: 518px; top: 223px;" data-block-id="c3f507d874b281ed58b9b42ee0e4c873"><div class="sl-block-content" style="z-index: 14; font-size: 109%;"><pre class="scss"><code>.btn
   border: 1px solid #ddd
   border-radius: 12px
   font-size: 20px
@@ -105,10 +108,10 @@
       -webkit-transform: translate(-50%, -55%)
       -moz-transform: translate(-50%, -55%)
       transform: translate(-50%, -55%)
-      -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.25)
-      -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.25)
-      -ms-box-shadow: 1px 2px 5px rgba(0,0,0,0.25)
-      box-shadow: 1px 2px 5px rgba(0,0,0,0.25)
+      -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.5)
+      -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.5)
+      -ms-box-shadow: 1px 2px 5px rgba(0,0,0,0.5)
+      box-shadow: 1px 2px 5px rgba(0,0,0,0.5)
 </code></pre></div></div></section><section data-background-color="#00092b" data-id="feae0dad12ce2cd0d9c95068019593c0"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 36px;" data-block-id="445340162172642fafcd38ecef061965"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
 <p><span style="font-size:60px">Variables</span></p>
 </div></div>
@@ -118,7 +121,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 518px; top: 114px;" data-block-id="a18fc7a5884403d9273fc1be07908851"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
 <p>Sass Syntax</p>
 </div></div>
-<div class="sl-block" data-block-type="code" style="width: 362px; height: 343px; left: 80px; top: 162px;" data-block-id="c70ecd275cbf4967ed1635ed7775768f"><div class="sl-block-content" style="z-index: 13; font-size: 65%;"><pre class="scss"><code>$font-stack: 'Roboto', sans-serif;
+<div class="sl-block" data-block-type="code" style="width: 621px; height: 538px; left: -171px; top: 162px;" data-block-id="c70ecd275cbf4967ed1635ed7775768f"><div class="sl-block-content" style="z-index: 13; font-size: 101%;"><pre class="scss"><code>$font-stack: 'Roboto', sans-serif;
 $green: #337ab7;
 $darkGreen: #286090;
 
@@ -138,15 +141,15 @@ $darkGreen: #286090;
       -webkit-transform: translate(-50%, -55%);
       -moz-transform: translate(-50%, -55%);
       transform: translate(-50%, -55%);
-      -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.25);
-      -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.25);
-      -ms-box-shadow: 1px 2px 5px rgba(0,0,0,0.25);
-      box-shadow: 1px 2px 5px rgba(0,0,0,0.25);
+      -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+      -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+      -ms-box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+      box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
     }
   }
 }
 </code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 370px; height: 343px; left: 518px; top: 162px;" data-block-id="b33c362299842830283bf87a57b97510"><div class="sl-block-content" style="z-index: 14; font-size: 65%;" data-highlight-theme="zenburn"><pre class="scss"><code>$font-stack: 'Roboto', sans-serif
+<div class="sl-block" data-block-type="code" style="width: 640px; height: 538px; left: 518px; top: 162px;" data-block-id="b33c362299842830283bf87a57b97510"><div class="sl-block-content" style="z-index: 14; font-size: 112%;" data-highlight-theme="zenburn"><pre class="scss"><code>$font-stack: 'Roboto', sans-serif
 $green: #337ab7
 $darkGreen: #286090
 
@@ -166,10 +169,10 @@ $darkGreen: #286090
       -webkit-transform: translate(-50%, -55%)
       -moz-transform: translate(-50%, -55%)
       transform: translate(-50%, -55%)
-      -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.25)
-      -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.25)
-      -ms-box-shadow: 1px 2px 5px rgba(0,0,0,0.25)
-      box-shadow: 1px 2px 5px rgba(0,0,0,0.25)</code></pre></div></div></section><section data-background-color="#00092b" data-id="a599b4aebcbe6ac90f69b53785aee9c4"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 36px;" data-block-id="cb1a42243c213a5f9f3ee6e1cc279f11"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
+      -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.5)
+      -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.5)
+      -ms-box-shadow: 1px 2px 5px rgba(0,0,0,0.5)
+      box-shadow: 1px 2px 5px rgba(0,0,0,0.5)</code></pre></div></div></section><section data-background-color="#00092b" data-id="a599b4aebcbe6ac90f69b53785aee9c4"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 36px;" data-block-id="cb1a42243c213a5f9f3ee6e1cc279f11"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
 <p><span style="font-size:60px">Mixins</span></p>
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 80px; top: 153px;" data-block-id="9e22f58f3315ccd6e221672b148b84a2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
@@ -178,7 +181,7 @@ $darkGreen: #286090
 <div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 519px; top: 153px;" data-block-id="4c9836be945464b215a815a1bfb54b27"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
 <p>Sass Syntax</p>
 </div></div>
-<div class="sl-block" data-block-type="code" style="width: 442px; height: 407px; left: 0px; top: 223px;" data-block-id="f3c9e5588a7979591f802b2349e7b830"><div class="sl-block-content" style="z-index: 13; font-size: 75%;"><pre class="scss"><code>@mixin boxShadow($x,$y,$blur,$color){
+<div class="sl-block" data-block-type="code" style="width: 598px; height: 478px; left: -157px; top: 222px;" data-block-id="f3c9e5588a7979591f802b2349e7b830"><div class="sl-block-content" style="z-index: 13; font-size: 101%;"><pre class="scss"><code>@mixin boxShadow($x,$y,$blur,$color){
   -webkit-box-shadow: $x $y $blur $color;
   -moz-box-shadow: $x $y $blur $color;
   -ms-box-shadow: $x $y $blur $color;
@@ -202,7 +205,7 @@ $darkGreen: #286090
     }
   }
 }</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 441px; height: 407px; left: 519px; top: 223px;" data-block-id="785577f7402ca42b3737aaf8de38488f"><div class="sl-block-content" style="z-index: 14; font-size: 75%;"><pre class="scss"><code>=boxShadow($x,$y,$blur,$color)
+<div class="sl-block" data-block-type="code" style="width: 565px; height: 477px; left: 519px; top: 223px;" data-block-id="785577f7402ca42b3737aaf8de38488f"><div class="sl-block-style" style="z-index: 14;"><div class="sl-block-content" style="z-index: 14; font-size: 112%;"><pre class="scss"><code>=boxShadow($x,$y,$blur,$color)
   -webkit-box-shadow: $x $y $blur $color
   -moz-box-shadow: $x $y $blur $color
   -ms-box-shadow: $x $y $blur $color
@@ -220,7 +223,7 @@ $darkGreen: #286090
     &amp;:hover
       background-color: $darkGreen
       +boxShadow(-50%, -55%)
-      +translate(1px, 2px, 5px, rgba(0,0,0,0.5))</code></pre></div></div></section><section data-background-color="#00092b" data-id="5bd2b150fa8eeccac29e3dec3443a4b8"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 36px;" data-block-id="ce5502857e31101f3bc0d10b24318ceb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
+      +translate(1px, 2px, 5px, rgba(0,0,0,0.5))</code></pre></div></div></div></section><section data-background-color="#00092b" data-id="5bd2b150fa8eeccac29e3dec3443a4b8"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 36px;" data-block-id="ce5502857e31101f3bc0d10b24318ceb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
 <p><span style="font-size:60px">Extends</span></p>
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 80px; top: 153px;" data-block-id="cf648c6e096d6ce0ffc38a9eeae43be6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
@@ -229,7 +232,7 @@ $darkGreen: #286090
 <div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 519px; top: 153px;" data-block-id="85d2b3666fcb36cd2f41e1ae4edd6567"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
 <p>Sass Syntax</p>
 </div></div>
-<div class="sl-block" data-block-type="code" style="width: 320px; height: 267px; left: 80px; top: 223px;" data-block-id="f49b0b36da1a5af062b898d76c64ebb6"><div class="sl-block-content" style="z-index: 13;"><pre class="scss"><code>%message {
+<div class="sl-block" data-block-type="code" style="width: 442px; height: 280px; left: 0px; top: 249px;" data-block-id="f49b0b36da1a5af062b898d76c64ebb6"><div class="sl-block-content" style="z-index: 13; font-size: 128%;"><pre class="scss"><code>%message {
   border: 1px solid #ccc;
   padding: 10px;
   color: #fff;
@@ -239,7 +242,7 @@ $darkGreen: #286090
   @extend %message;
   background-color: $blue;
 }</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 320px; height: 267px; left: 558px; top: 223px;" data-block-id="92966ebc78edcacc1b1983fdabc16347"><div class="sl-block-content" style="z-index: 14;"><pre class="scss"><code>%message
+<div class="sl-block" data-block-type="code" style="width: 441px; height: 280px; left: 519px; top: 249px;" data-block-id="92966ebc78edcacc1b1983fdabc16347"><div class="sl-block-content" style="z-index: 14; font-size: 148%;"><pre class="scss"><code>%message
   border: 1px solid #ccc
   padding: 10px
   color: #333
@@ -255,13 +258,13 @@ $darkGreen: #286090
 <div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 519px; top: 153px;" data-block-id="37cc4e4510c6bb95459a80d26af148d3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
 <p>Sass Syntax</p>
 </div></div>
-<div class="sl-block" data-block-type="code" style="width: 320px; height: 267px; left: 80px; top: 223px;" data-block-id="2df8eda1ceec7e45180a4e7463d6c450"><div class="sl-block-content" style="z-index: 14;"><pre class="scss"><code>%message {
+<div class="sl-block" data-block-type="code" style="width: 441px; height: 312px; left: 0px; top: 210px;" data-block-id="2df8eda1ceec7e45180a4e7463d6c450"><div class="sl-block-style" style="z-index: 14; transform: rotate(360deg);"><div class="sl-block-content" style="z-index: 14; font-size: 143%;"><pre class="scss"><code>%message {
   border: 1px solid #ccc;
   padding: 10px;
   color: #fff;
   width: 600px / 960px * 100%;
-}</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 320px; height: 267px; left: 560px; top: 223px;" data-block-id="ef8f4f435d74e87aa49adffe8161e6e2"><div class="sl-block-content" style="z-index: 15;"><pre class="scss"><code>%message
+}</code></pre></div></div></div>
+<div class="sl-block" data-block-type="code" style="width: 441px; height: 312px; left: 519px; top: 210px;" data-block-id="ef8f4f435d74e87aa49adffe8161e6e2"><div class="sl-block-content" style="z-index: 15; font-size: 148%;"><pre class="scss"><code>%message
   border: 1px solid #ccc
   padding: 10px
   color: #fff
@@ -322,7 +325,7 @@ user@computer-name:~/path/to/sass$ sass -w main.scss:main.css</code></pre></div>
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":669067,"username":"carsonmckinstry","name":"Carson McKinstry","description":null,"thumbnail_url":"//graph.facebook.com/10212177337493330/picture","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":517925,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null,"phone_number":null,"phone_country_code":null},"email":"carson.mckinstry@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":989181,"slug":"deck","title":"deck","description":"","width":960,"height":700,"visibility":"all","published_at":"2017-04-26T02:30:02.610Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/e320c8093f8a69b989d0b8e9623197ef/thumb.jpg","view_count":1,"user":{"id":669067,"username":"carsonmckinstry","name":"Carson McKinstry","description":null,"thumbnail_url":"//graph.facebook.com/10212177337493330/picture","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":517925,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":null,"slide_number":null,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1493217891063,"font_typekit":null,"font_google":null,"notes":{}}};
+	var SLConfig = {"current_user":{"id":669067,"username":"carsonmckinstry","name":"Carson McKinstry","description":null,"thumbnail_url":"//graph.facebook.com/10212177337493330/picture","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":517925,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null,"phone_number":null,"phone_country_code":null},"email":"carson.mckinstry@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":989181,"slug":"deck","title":"deck","description":"","width":960,"height":700,"visibility":"all","published_at":"2017-04-26T02:30:02.610Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/e320c8093f8a69b989d0b8e9623197ef/thumb.jpg","view_count":1,"user":{"id":669067,"username":"carsonmckinstry","name":"Carson McKinstry","description":null,"thumbnail_url":"//graph.facebook.com/10212177337493330/picture","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":517925,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":null,"slide_number":null,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1493219197748,"font_typekit":null,"font_google":null,"notes":{}}};
 </script>
 
 		<script>
