@@ -1,0 +1,52 @@
+$font-stack:'Roboto', sans-serif;
+$blue: #337ab7;
+$darkBlue: #286090;
+
+body {
+  font-family: $font-stack;
+}
+
+@mixin boxShadow($x,$y,$blur,$color){
+  -webkit-box-shadow: $x $y $blur $color;
+  -moz-box-shadow: $x $y $blur $color;
+  -ms-box-shadow: $x $y $blur $color;
+  box-shadow: $x $y $blur $color;
+}
+
+@mixin translate($xOffset, $yOffset){
+  -webkit-transform: translate($xOffset, $yOffset);
+  -moz-transform: translate($xOffset, $yOffset);
+  transform: translate($xOffset, $yOffset);
+}
+
+.btn {
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  color: #222;
+  background-color: #fff;
+  padding: 12px 32px;
+  font-family: $font-stack;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  &.btn-submit {
+    background-color: $blue;
+    &:hover {
+      background-color: $darkBlue;
+      @include translate(-50%, -55%);
+      @include boxShadow(1px, 2px, 5px, rgba(0,0,0,0.5));
+    }
+  }
+}
+
+%message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #fff;
+  width: 600px / 960px * 100%;
+}
+
+.submit {
+  @extend %message;
+  background-color: $blue;
+}
