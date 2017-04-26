@@ -229,24 +229,46 @@ $darkGreen: #286090
 <div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 519px; top: 153px;" data-block-id="85d2b3666fcb36cd2f41e1ae4edd6567"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
 <p>Sass Syntax</p>
 </div></div>
-<div class="sl-block" data-block-type="code" style="width: 320px; height: 267px; left: 80px; top: 223px;" data-block-id="f49b0b36da1a5af062b898d76c64ebb6"><div class="sl-block-content" style="z-index: 13;"><pre class="scss"><code>.message {
+<div class="sl-block" data-block-type="code" style="width: 320px; height: 267px; left: 80px; top: 223px;" data-block-id="f49b0b36da1a5af062b898d76c64ebb6"><div class="sl-block-content" style="z-index: 13;"><pre class="scss"><code>%message {
   border: 1px solid #ccc;
   padding: 10px;
   color: #fff;
 }
 
 .submit {
-  @extend .message;
+  @extend %message;
   background-color: $blue;
 }</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 320px; height: 267px; left: 560px; top: 223px;" data-block-id="92966ebc78edcacc1b1983fdabc16347"><div class="sl-block-content" style="z-index: 14;"><pre class="scss"><code>.message
+<div class="sl-block" data-block-type="code" style="width: 320px; height: 267px; left: 558px; top: 223px;" data-block-id="92966ebc78edcacc1b1983fdabc16347"><div class="sl-block-content" style="z-index: 14;"><pre class="scss"><code>%message
   border: 1px solid #ccc
   padding: 10px
   color: #333
 
 .submit
-  @extend .message
-  background-color: $blue</code></pre></div></div></section><section data-background-color="#00092b" data-id="975ec79d4f5e94cc210a92e3bad826f5"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 36px;" data-block-id="78f0ea477486a994ffe4bed5c8d84e3e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
+  @extend %message
+  background-color: $blue</code></pre></div></div></section><section data-background-color="#00092b" data-id="744a3b87ab4334650fc1b2263b5db5ab"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 36px;" data-block-id="eec47eda7a39b1ce12118f6e327a0c6b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
+<p><span style="font-size:60px">Operators</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 80px; top: 153px;" data-block-id="631fce4347f49c2282c9fe644ae35e5a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
+<p>SCSS Syntax</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 519px; top: 153px;" data-block-id="37cc4e4510c6bb95459a80d26af148d3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
+<p>Sass Syntax</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 320px; height: 267px; left: 80px; top: 223px;" data-block-id="2df8eda1ceec7e45180a4e7463d6c450"><div class="sl-block-content" style="z-index: 14;"><pre class="scss"><code>%message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #fff;
+  width: 600px / 960px * 100%;
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 320px; height: 267px; left: 560px; top: 223px;" data-block-id="ef8f4f435d74e87aa49adffe8161e6e2"><div class="sl-block-content" style="z-index: 15;"><pre class="scss"><code>%message
+  border: 1px solid #ccc
+  padding: 10px
+  color: #fff
+  width: 600px / 960px * 100%</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="2a21c65cd99e2a832840cdb5cebfe0fb" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 560px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(255, 255, 255);">
+<p>Examples:  + , - , / , * , %</p>
+</div></div></section><section data-background-color="#00092b" data-id="975ec79d4f5e94cc210a92e3bad826f5"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 36px;" data-block-id="78f0ea477486a994ffe4bed5c8d84e3e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
 <p><span style="font-size:60px">Imports</span></p>
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 362px; left: 80px; top: 421px;" data-block-id="1acea5d2a1e214e11a1bbd8b05cd5830"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255);" data-gramm_id="ea988d5a-017a-2cf7-bbae-d2dc717a36a8" data-gramm="true" data-gramm_editor="true">
@@ -260,6 +282,20 @@ $darkGreen: #286090
 <div class="sl-block" data-block-type="text" data-block-id="15feea9c9dcd676d24a370288566ea9c" style="height: auto; min-width: 30px; min-height: 30px; width: 809px; left: 88px; top: 140px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(255, 255, 255);" data-gramm_id="6de55179-44e6-7ca0-5ab2-2bf209035780" data-gramm="true" data-gramm_editor="true">
 <p style="text-align:left">Sass supports "partials", or partial snippets of code in separate files.<br>
 Ex:  you have a  <strong>_reset.scss/sass</strong> file you want to include in your <strong>main.scss/sass</strong> file:</p>
+</div></div></section><section data-background-color="#00092b" data-id="fb9de853a38d75c1d3157f89ba5acc7c"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 41px;" data-block-id="0c78ecb981618c335b012ee31e4b4911"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
+<p><span style="font-size:60px">Other features</span></p>
+</div></div>
+
+
+
+<div class="sl-block" data-block-type="text" data-block-id="b6d44cfd67b0b11847556c8ac4fecba9" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 150px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255); line-height: 2.691; font-size: 130%;" data-has-line-height="">
+<p style="text-align:left">Control directives<br>
+ - @for, @while, @each, @if<br>
+Nested Media Queries</p>
+
+<p style="text-align:left">Much more</p>
+
+<p style="text-align:left"> </p>
 </div></div></section><section data-background-color="#00092b" data-id="1dce3dd91f141c61d315effc3f7a8f5b"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 36px;" data-block-id="9029b0fde07408df96c0ddeb4355882e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 255);" data-gramm_id="1e438e5b-2701-3d41-a90d-4cb14cfc4284" data-gramm="true" data-gramm_editor="true">
 <p><span style="font-size:60px">Compiling</span></p>
 </div></div>
@@ -278,7 +314,7 @@ user@computer-name:~/path/to/sass$ sass -w main.scss:main.css</code></pre></div>
 <p>Continuously watch</p>
 </div></div>
 <div class="sl-block" data-block-type="text" data-block-id="4d49d8cacf18e0c219310393dcec21f7" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 560px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(255, 255, 255);" data-gramm_id="5dd71537-dece-418a-85f5-6f11f78f2917" data-gramm="true" data-gramm_editor="true">
-<p>This can also be done by the node package <strong>node-sass</strong></p>
+<p>This can also be done using the node package <strong>node-sass</strong></p>
 </div></div></section>
 			</div>
 		</div>
@@ -286,7 +322,7 @@ user@computer-name:~/path/to/sass$ sass -w main.scss:main.css</code></pre></div>
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":669067,"username":"carsonmckinstry","name":"Carson McKinstry","description":null,"thumbnail_url":"//graph.facebook.com/10212177337493330/picture","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":517925,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null,"phone_number":null,"phone_country_code":null},"email":"carson.mckinstry@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":989181,"slug":"deck","title":"deck","description":"","width":960,"height":700,"visibility":"all","published_at":"2017-04-26T02:30:02.610Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/e320c8093f8a69b989d0b8e9623197ef/thumb.jpg","view_count":1,"user":{"id":669067,"username":"carsonmckinstry","name":"Carson McKinstry","description":null,"thumbnail_url":"//graph.facebook.com/10212177337493330/picture","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":517925,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":null,"slide_number":null,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1493181418630,"font_typekit":null,"font_google":null,"notes":{}}};
+	var SLConfig = {"current_user":{"id":669067,"username":"carsonmckinstry","name":"Carson McKinstry","description":null,"thumbnail_url":"//graph.facebook.com/10212177337493330/picture","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":517925,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null,"phone_number":null,"phone_country_code":null},"email":"carson.mckinstry@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":989181,"slug":"deck","title":"deck","description":"","width":960,"height":700,"visibility":"all","published_at":"2017-04-26T02:30:02.610Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/e320c8093f8a69b989d0b8e9623197ef/thumb.jpg","view_count":1,"user":{"id":669067,"username":"carsonmckinstry","name":"Carson McKinstry","description":null,"thumbnail_url":"//graph.facebook.com/10212177337493330/picture","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":517925,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":null,"slide_number":null,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1493217891063,"font_typekit":null,"font_google":null,"notes":{}}};
 </script>
 
 		<script>
