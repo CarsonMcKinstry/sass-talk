@@ -28,7 +28,7 @@ These are similar to mixins. These are used instead of mixins when you have one 
 
 ## imports and partials
 
-SASS supports partials, which are files containing snippets of your code. This allows for your code to be less verbose and more concise, and increases the overall maintainability of the code (variables in one folder/file, mixins in another, etc.).
+SASS supports partials, which are files containing snippets of your code. This allows for your code to be less verbose and more concise, and increases the overall maintainability of the code (variables in one folder/file, mixins in another, etc.). Partials, like in other languages require an underscore in front of the filename.
 
 ## Operators
 There are a bunch of them, and they let you do math in Sass `+`, `-`, `*`, `/`, and `%`. They let you do math in Sass and are actually use in Bootstrap to create the grid system.
